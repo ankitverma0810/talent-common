@@ -1,13 +1,13 @@
 import { Subjects } from './subjects';
 
 // This would be the information that will be passed to the NATS server
-export interface TicketCreatedEvent {
-	subject: Subjects.TicketCreated;
+export interface EmployeeCreatedEvent {
+	subject: Subjects.EmployeeCreated;
 	data: {
 		id: string;
-		title: string;
-		price: number;
-		userId: string;
+		firstname: string;
+		lastname: string;
+		designation: string;
 		version: number;
 	}
 }
