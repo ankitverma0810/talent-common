@@ -7,7 +7,7 @@ export interface EmployeeCreatedEvent {
 		id: string;
 		firstname: string;
 		lastname: string;
-		designation: string;
+		email: string;
 		version: number;
 	}
 }
