@@ -12,6 +12,7 @@ export * from './middlewares/validate-request';
 
 export * from './events/base-listener';
 export * from './events/base-publisher';
+export * from './events/types/role-type';
 export * from './events/subjects';
 export * from './events/employee-created-event';
 export * from './events/employee-updated-event';
