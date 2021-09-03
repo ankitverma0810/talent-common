@@ -8,6 +8,7 @@ export interface EmployeeUpdatedEvent {
 		firstname: string;
 		lastname: string;
 		email: string;
+		reportsTo: string;
 		version: number;
 	}
 }

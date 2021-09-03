@@ -8,6 +8,7 @@ export interface EmployeeCreatedEvent {
 		firstname: string;
 		lastname: string;
 		email: string;
+		reportsTo: string;
 		version: number;
 	}
 }
